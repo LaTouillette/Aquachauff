@@ -1,0 +1,167 @@
+html {
+    font-family: 'Oswald',arial,verdana,sans-serif;
+}
+
+/*****************************************************************************HEADER**************************************************************************/
+header {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: -10px -10px -10px;
+}
+
+#contact_header {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1%;
+}
+
+#contact_header h3 {
+    color: #535353;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: -10px;
+    margin-left: 12px;
+}
+
+#contact_header p {
+    padding-left: 5%;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0086cc;
+}
+
+
+/*****************************************************************************PRESENTATION**************************************************************************/
+
+body {
+    background: #e0dfdf ;
+    justify-content: center;
+}
+
+#presentation {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#presentation h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #093f7f;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+#presentation h1 {
+    font-weight: 300;
+    font-size: 15px;
+    color: #535353;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+#presentation p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+/*****************************************************************************CONTENU/SERVICES**************************************************************************/
+
+
+#contenu {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14.7%;
+
+}
+#services {
+    display: flex;
+    width: 310px;
+}
+
+#services > * {
+    padding-left: 100px;
+}
+
+#services2 {
+    display: flex;
+    width : 310px;
+}
+
+#services2 > * {
+    padding-left: 100px;
+}
+
+#services h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #aabd23;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+#services2 h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #aabd23;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+#services .text {
+    text-align: justify;
+    color: #000;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#services2 .text {
+    text-align: justify;
+    color: #000;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/*****************************************************************************CERTIFS**************************************************************************/
+
+
+#certifications {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#cert_logo {
+    display: flex;
+    justify-content: center;
+}
+
+#agree {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*****************************************************************************INTERVENTION**************************************************************************/
+
+#interventions {
+    color: #535353;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
